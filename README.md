@@ -18,7 +18,7 @@ We release two triage-note datasets built from de-identified structured ED visit
 - **MIMIC-IV (Augmented)** — **15,393** augmented ED triage notes with **ESI labels (1–5)**, split into **train/val/test = 8:1:1**.
 - **NHAMCS (Augmented)** — **16,596** augmented ED triage notes labeled by **immediacy rating (IR 1–5)**, a triage scale comparable to ESI, also split into **train/val/test = 8:1:1**.
 - 
-**For more detailed experimental results, please [Click here!](Data/READMD.md)**
+**For more detailed dataset, please [Click here!](Data/READMD.md)**
 
 ## 🧠 SOAPTriage Architecture
 <img src="Doc/Pictures/figure2.png" alt="figure2" border="0">
