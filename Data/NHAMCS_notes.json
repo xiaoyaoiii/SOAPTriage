@@ -1,0 +1,25 @@
+[  {
+    "id": "2021_2567",
+    "answer": "A 70-year-old female with a history of hypertension (HTN) and cerebrovascular disease (CEBVD) was brought to the Emergency Department via EMS at 22:47. She presented with significant respiratory distress, described as labored breathing and an inability to catch her breath. She was also noted to have an altered mental status, appearing disoriented and noncommunicative.\n\nOn arrival, her vital signs were notable for a tachycardia with a pulse of 134 and significant tachypnea with a respiratory rate of 53. Her oxygen saturation was 100%, and her blood pressure was not initially obtainable. Her skin was cool and diaphoretic. The patient's pain level and specific episode of care details were unknown.",
+    "triage": "1"
+  },
+    {
+    "id": "2021_6516",
+    "answer": "A 34-year-old male was brought to the emergency department via EMS, arriving at 00:02. He was reportedly unconscious on arrival. His vital signs upon presentation were a blood pressure of 150/92 mmHg, a pulse of 100 beats per minute, a respiratory rate of 22 breaths per minute, a temperature of 97.7°F, and an oxygen saturation of 98%. The patient now reports a headache, rating the pain as 1/10. This is his initial visit to this ED for this complaint, and he has not been seen here in the last 72 hours. He has no significant past medical history. The presentation is related to an unintentional injury.",
+    "triage": "2"
+  },
+    {
+    "id": "2020_1494",
+    "answer": "A 51-year-old female presented to the emergency department at 02:00 on Sunday. She arrived via private vehicle. Her initial vital signs were stable: BP 123/68, HR 88, RR 18, SpO2 98% on room air, and temperature 98.0°F. She reports a pain level of 7 out of 10. Her chief complaint is a diffuse skin rash, which she describes as a significant eruption. She has not been seen in this or any other emergency department in the last 72 hours and reports no significant past medical history. This is her initial visit for this episode of care, and she denies any specific injury, poisoning, or adverse event.",
+    "triage": "3"
+  },
+    {
+    "id": "2022_5660",
+    "answer": "A 35-year-old male presented to the emergency department at 08:43 as a walk-in. He reports an unintentional injury, which is the reason for this initial visit. His chief complaint is pain, which he rates as a 6 out of 10. He has no significant past medical history and has not been seen in this ED within the last 72 hours. Initial vital signs are: BP 142/86, HR 72, RR 18, SpO2 99%, and Temperature 98.1°F.",
+    "triage": "4"
+  },
+    {
+    "id": "2020_6411",
+    "answer": "A 47-year-old man presents to the emergency department for an initial evaluation following a traumatic injury to his hand. The incident occurred today when he made contact with a powered kitchen appliance. He has no significant past medical history. His vital signs are stable with a blood pressure of 160/85; all other parameters are within normal limits. He reports his pain as 4/10.",
+    "triage": "5"
+  }]
