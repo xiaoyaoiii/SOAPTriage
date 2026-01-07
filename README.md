@@ -30,7 +30,7 @@ Architecture of SOAPTriage. The CNA module converts structured ED records into n
 
 Performance comparison (%) between SOAPTriage and baseline methods on the clinical triage dataset. Best results are highlighted in bold, while the second-best results are indicated by underlining. Lower values indicate better performance.
 
-For comprehensive details on all baseline models, please [Click here.](Doc/Supplementary%20Experiments/Baseline.md)
+**For comprehensive details on all baseline models, please [Click here.](Doc/Supplementary%20Experiments/Baseline.md)**
 
 **For more detailed results, please [Click here.](Doc/Supplementary%20Experiments/README.md)**
 
