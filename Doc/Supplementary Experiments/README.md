@@ -1,5 +1,11 @@
-## 🛠️ Fine-Tuning Results
+# Supplementary Benchmark Results
+## 📊 Ablation study and backbone LLMs
 <img src="Pictures/figure4.png" alt="figure4" border="0">
+Ablation study and performance comparison across backbone LLMs of different scales. Lower values indicate better performance.
+
+## ✨ Influence of Different Architectura Settings
+<img src="Pictures/table5.png" alt="table5" border="0">
+Performance comparison (%) of three variants under the Qwen3-8B setting across five triage metrics. We report Total Discordance, UnderTriage, and OverTriage rates, as well as their clinically significant counterparts (S-Under and S-Over). Lower values indicate better performance.
 
 # Human Expert Evaluation
 ## ⚖️ Evaluation of Clinical Quality and Plausibility
