@@ -6,7 +6,7 @@
 
 This repository provides the official implementation of the paper **"SOAPTriage: SOAP-Guided Multi-View Clinical Text Modeling Framework for Automated ESI Prediction."** It includes the data construction pipeline, source code, experimental results, and detailed usage instructions to support reproducible research and future extensions. The repo covers the **Clinical Note Augmentation (CNA)** module for generating a large-scale triage-note dataset from structured ED records, as well as the **SOAP-guided** multi-view modeling components (**SGE / SAAI**) that encode and aggregate **Subjective**, **Objective**, **Assessment**, and **Plan** perspectives for automated **ESI (1–5)** prediction, together with evaluation scripts and reproducibility materials.
 
-<img src="Doc/Pictures/figure1.png" alt="figure1" border="0">
+<img src="Doc/Pictures/figure1.png" alt="figure1" width="600">
 
 
 ## 📂 Dataset Overview
