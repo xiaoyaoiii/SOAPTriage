@@ -45,7 +45,7 @@ Performance comparison (%) between SOAPTriage and baseline methods on the clinic
 
 **For more detailed results, please [Click here.](Doc/Supplementary%20Experiments/README.md)**
 
-## ✨ NHAMCS Performance
+## ✨ NHAMCS Results
 <div align="center">
   <img src="Doc/Pictures/nh_table.png" alt="nh_table" width="70%">
 </div>
