@@ -1,4 +1,6 @@
 # Dataset
+Due to data governance and privacy considerations, we only release **partial examples** of the two constructed datasets. These examples are provided to illustrate the data format, field organization, and typical triage-note style, and can be used for rapid understanding and reproducibility of the preprocessing pipeline. For access to the full underlying structured sources, please follow the official data access procedures of the corresponding datasets.
+
 
 ## 🗂️ MIMIC-IV Dataset
 We primarily conduct our experiments on **MIMIC-IV**, extracting eligible emergency department (ED) visits by integrating **MIMIC-IV**, **MIMIC-IV-ED**, and **MIMIC-IV-Note** to construct a comprehensive triage dataset. Using our **Clinical Note Augmentation (CNA)** pipeline, we convert de-identified structured ED records into natural-language triage notes and generate **15,393** clinical triage notes with **ESI labels (1–5)**. We split the dataset into **training/validation/test = 8:1:1** while preserving the original label distribution.
