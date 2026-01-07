@@ -1,0 +1,26 @@
+[
+  {
+    "id": "11397486",
+    "answer": "A 91-year-old woman was brought to the emergency department. At triage, she was lethargic and her chief complaint was documented as \"gib.\" Her initial vital signs were notable for hypothermia and bradycardia: temperature 94.8°F, heart rate 40, respiratory rate 16, blood pressure 90/48 mmHg, and SpO2 98% on room air. She rated her pain as 13 out of 10. Per available history, her past medical history includes a prior CVA with residual left-sided weakness, hypertension, and high cholesterol. She has no known drug allergies. The presentation was also prompted by abnormal laboratory findings.",
+    "triage": "1"
+  },
+    {
+    "id": "15703550",
+    "answer": "A 54-year-old white female presented to the emergency department via walk-in. At triage, she reported a headache and numbness in her right arm, stating, \"My head is pounding and my arm feels strange and weak.\" Initial vital signs were recorded as: temperature 98.0°F, heart rate 76, respiratory rate 14, blood pressure 142/95 mmHg, and SpO₂ 100% on room air. She rated her headache pain as 6 out of 10.",
+    "triage": "2"
+  },
+    {
+    "id": "15789021",
+    "answer": "A 25-year-old female of Guatemalan ethnicity presented to the emergency department via walk-in. At triage, she reported her primary concern as a cough and fever, stating she felt \"too ill\" to manage at home. Initial vital signs were recorded as: temperature 100.1°F, heart rate 100 beats per minute, respiratory rate 18 breaths per minute, blood pressure 120/65 mm Hg, and SpO₂ 100% on room air. She rated her overall discomfort as 8 out of 10.",
+    "triage": "3"
+  },
+    {
+    "id": "10699494",
+    "answer": "A 32-year-old female presented to the emergency department via walk-in with a chief complaint of left shoulder pain. At triage, she described the pain as a constant ache that was interfering with her ability to lift her arm. Initial vital signs were recorded as: blood pressure 157/100 mmHg, heart rate 70, respiratory rate 16, SpO₂ 98% on room air, and temperature 97.0°F. She rated her pain as 3 out of 10.",
+    "triage": "4"
+  },
+    {
+    "id": "12629469",
+    "answer": "A 26-year-old male presented to the emergency department via walk-in for suture removal. He was calm and cooperative at triage. His initial vital signs were recorded as: T 98.4°F, HR 77, RR 16, BP 138/86, SpO2 98% on room air. He reported a pain level of 0/10.",
+    "triage": "5"
+  }]
