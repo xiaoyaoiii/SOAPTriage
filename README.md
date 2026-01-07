@@ -45,24 +45,24 @@ You can implement our methods according to the following steps:
    ```shell
    pip install -r requirements.txt
    ```
-2. Install Swift to deploy models. Please [Click here.](https://swift.readthedocs.io/zh-cn/latest/index.html)
-3. Run our code using Python.
+2. Run our code using Python.
+
+   Data Augmentation:
+   ```shell
+   python callapi.py
+   ```
    
-   Train the KEA:
+   Encode:
    ```shell
-   python KEA_train.py
+   bash encode.sh
    ```
-   Evaluate the KEA:
+
+   Train the SOAPTriage:
    ```shell
-   python KEA_test.py
+   bash train.sh
    ```
-   Zero-Shot Testing:
+   Predict the ESI:
    ```shell
-   python zeroshot.py
-   ```
-   Few-Shot Testing:
-   ```shell
-   python fewshot.py
-   ```
+   bash Predict.sh
 
 ## 🌟 Contributions and suggestions are welcome!
