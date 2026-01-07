@@ -12,12 +12,11 @@ This repository provides the official implementation of the paper **"SOAPTriage:
 ## 📂 Dataset Overview
 <img src="Doc/Pictures/table1.png" alt="table1" border="0">
 
-### PG-Bench Dataset
-- **General.jsonl** - General Hospital Patient-Doctor Dialogue Guidance Dataset
-- **Gynecological.jsonl** - Gynecological Specialty Hospital Patient-Doctor Dialogue Guidance Dataset
-- **Pediatric.jsonl** - Pediatric Specialty Hospital Patient-Doctor Dialogue Guidance Dataset  
-- **Stomatological.jsonl** - Stomatological Specialty Hospital Patient-Doctor Dialogue Guidance Dataset
-- **TCM.jsonl** - TCM Specialty Hospital Patient-Doctor Dialogue Guidance Dataset
+### Constructed Triage Datasets
+We release two triage-note datasets built from de-identified structured ED visit records via our **Clinical Note Augmentation (CNA)** pipeline:
+
+- **MIMIC-IV (Augmented)** — **15,393** augmented ED triage notes with **ESI labels (1–5)**, split into **train/val/test = 8:1:1**.
+- **NHAMCS (Augmented)** — **16,596** augmented ED triage notes labeled by **immediacy rating (IR 1–5)**, a triage scale comparable to ESI, also split into **train/val/test = 8:1:1**.
 
 ## 🧠 KEA Architecture
 <img src="Doc/Pictures/figure2.png" alt="figure2" border="0">
