@@ -24,16 +24,14 @@ We release two triage-note datasets built from de-identified structured ED visit
 **For more detailed experimental results, please [Click here!](Doc/Supplementary%20Experiments/README.md)**
 
 ## 📊 MIMIC-IV Results
-<img src="Doc/Pictures/table2.png" alt="table2" border="0">
+<img src="Doc/Pictures/table2.png" alt="mimic_table" border="0">
 
 For comprehensive details on all baseline models, please [Click here.](Doc/Supplementary%20Experiments/Baseline.md)
 
 For more detailed benchmark results, please [Click here.](Doc/Supplementary%20Experiments/README.md)
 
 ## ✨ NHAMCS Performance
-<img src="Doc/Pictures/table3.png" alt="table3" border="0">
-<img src="Doc/Pictures/table4.png" alt="table4" border="0">
-<img src="Doc/Pictures/table5.png" alt="table5" border="0">
+<img src="Doc/Pictures/table3.png" alt="nh_table" border="0">
 
 For more detailed performance results, please [Click here.](Doc/Supplementary%20Experiments/README.md)
 
