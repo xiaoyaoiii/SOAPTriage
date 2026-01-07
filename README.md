@@ -20,15 +20,19 @@ We release two triage-note datasets built from de-identified structured ED visit
 
 ## 🧠 SOAPTriage Architecture
 <img src="Doc/Pictures/figure2.png" alt="figure2" border="0">
-Performance comparison (%) between SOAPTriage and baseline methods on the clinical triage dataset. Best results are highlighted in bold, while the second-best results are indicated by underlining. Lower values indicate better performance.
+
+Architecture of SOAPTriage. The CNA module converts structured ED records into natural-language triage notes to construct a high-quality dataset. The SGE module, guided by SOAP triage theory, comprehensively assesses patients' conditions and extracts mid-depth representations from four perspectives. The SAAI module adaptively aggregates these SOAP-aware representations to infer the final ESI level.
+
 **For more detailed experimental results, please [Click here!](Doc/Supplementary%20Experiments/README.md)**
 
 ## 📊 MIMIC-IV Results
 <img src="Doc/Pictures/mimic_table.png" alt="mimic_table" border="0">
+
 Performance comparison (%) between SOAPTriage and baseline methods on the clinical triage dataset. Best results are highlighted in bold, while the second-best results are indicated by underlining. Lower values indicate better performance.
+
 For comprehensive details on all baseline models, please [Click here.](Doc/Supplementary%20Experiments/Baseline.md)
 
-For more detailed benchmark results, please [Click here.](Doc/Supplementary%20Experiments/README.md)
+**For more detailed results, please [Click here.](Doc/Supplementary%20Experiments/README.md)**
 
 ## ✨ NHAMCS Performance
 <img src="Doc/Pictures/nh_table.png" alt="nh_table" border="0">
