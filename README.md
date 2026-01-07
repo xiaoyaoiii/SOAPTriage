@@ -20,7 +20,7 @@ We release two triage-note datasets built from de-identified structured ED visit
 
 **For more detailed dataset, please [Click here!](Data/READMD.md)**
 
-## 🧠 SOAPTriage Architecture
+## 🧠 SOAPTriage Framework
 <img src="Doc/Pictures/figure2.png" alt="figure2" border="0">
 
 Architecture of SOAPTriage. The CNA module converts structured ED records into natural-language triage notes to construct a high-quality dataset. The SGE module, guided by SOAP triage theory, comprehensively assesses patients' conditions and extracts mid-depth representations from four perspectives. The SAAI module adaptively aggregates these SOAP-aware representations to infer the final ESI level.
