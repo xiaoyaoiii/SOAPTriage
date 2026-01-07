@@ -18,7 +18,7 @@ We release two triage-note datasets built from de-identified structured ED visit
 - **MIMIC-IV (Augmented)** — **15,393** augmented ED triage notes with **ESI labels (1–5)**, split into **train/val/test = 8:1:1**.
 - **NHAMCS (Augmented)** — **16,596** augmented ED triage notes labeled by **immediacy rating (IR 1–5)**, a triage scale comparable to ESI, also split into **train/val/test = 8:1:1**.
 
-## 🧠 KEA Architecture
+## 🧠 SOAPTriage Architecture
 <img src="Doc/Pictures/figure2.png" alt="figure2" border="0">
 
 **For more detailed experimental results, please [Click here!](Doc/Supplementary%20Experiments/README.md)**
@@ -36,32 +36,6 @@ For more detailed benchmark results, please [Click here.](Doc/Supplementary%20Ex
 <img src="Doc/Pictures/table5.png" alt="table5" border="0">
 
 For more detailed performance results, please [Click here.](Doc/Supplementary%20Experiments/README.md)
-
-## 🔍 Case Study
-- A case study of KEA utilizing EKP to recommend the appropriate department. EKP: Evolving Knowledge Pool.
-<img src="Doc/Pictures/casestudy1.png" alt="casestudy1" border="0">
-
-
-## 📝 Prompt Templates
-- PG-Bench Dataset Construction Template and Prompt Instructions.
-<img src="Doc/Pictures/prompt1.png" alt="prompt1" border="0">
-
-- System Prompt Instructions for PG-Bench.
-<img src="Doc/Pictures/prompt2.png" alt="prompt2" border="0">
-
-- System Prompt Instructions for KEA.
-<img src="Doc/Pictures/prompt3.png" alt="prompt3" border="0">
-
-- Reflection Process Prompt Instructions for KEA.
-<img src="Doc/Pictures/prompt4.png" alt="prompt4" border="0">
-
-- Reflection-Based Response Prompt Instructions for KEA.
-<img src="Doc/Pictures/prompt5.png" alt="prompt5" border="0">
-
-## 🏥 Departments List
-- Description of the List of Subordinate Departments within the PG-Bench Dataset Subsets.
-<img src="Doc/Pictures/list.png" alt="list" border="0">
-
 
 ## 📖 Usage
 You can implement our methods according to the following steps:
