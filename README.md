@@ -1,10 +1,10 @@
 <img src="Doc/Pictures/title.png" alt="title" border="0">
 
-<p float="left"><img src="https://img.shields.io/badge/python-v3.9+-red"> <img src="https://img.shields.io/badge/pytorch-v2.6+-blue">
+<p float="left"><img src="https://img.shields.io/badge/python-v3.10+-red"> <img src="https://img.shields.io/badge/pytorch-v2.6+-blue">
    
-# PG-Bench & KEA
+# SOAPTriage
 
-This repository provides the official implementation of the paper **"Advancing Chinese Conversation-based Patient Guidance with a Benchmark and Knowledge-Evolvable Assistant."** It contains the open-source **PG-Bench dataset**, source code, experimental results, and usage instructions, supporting reproducible research and further development on the **CCPG benchmark (PG-Bench)** and the **Knowledge-Evolvable Assistant (KEA)**. *CCPG: Chinese Conversation-based Patient Guidance*.
+This repository provides the official implementation of the paper **"SOAPTriage: SOAP-Guided Multi-View Clinical Text Modeling Framework for Automated ESI Prediction."** It includes the data construction pipeline, source code, experimental results, and detailed usage instructions to support reproducible research and future extensions. The repo covers the **Clinical Note Augmentation (CNA)** module for generating a large-scale triage-note dataset from structured ED records, as well as the **SOAP-guided** multi-view modeling components (**SGE / SAAI**) that encode and aggregate **Subjective**, **Objective**, **Assessment**, and **Plan** perspectives for automated **ESI (1–5)** prediction, together with evaluation scripts and reproducibility materials.
 
 <img src="Doc/Pictures/figure1.png" alt="figure1" border="0">
 
