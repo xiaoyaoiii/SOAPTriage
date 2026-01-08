@@ -1,9 +1,8 @@
+## 📦 Pre-encoded Features & Model Checkpoints (Release After Acceptance)
 
-## Anonymous Release Notice (Pre-computed LLM Encodings & Model)
+To comply with the **double-blind review** policy and related anonymity requirements, we **temporarily do not provide** the public cloud storage links for the pre-computed LLM-encoded features and trained model checkpoints during the review period. These materials may contain metadata or access traces that could compromise anonymity.
 
-Due to double-blind review constraints, we do not publicly share the cloud drive link during the anonymous period. The drive contains:
-- Pre-computed LLM encodings/embeddings (~16 GB)
-- The corresponding model files (~2 GB)
+Once the paper is **accepted**, we will **immediately release** the corresponding download links and full instructions for reproduction.
 
-We will make the download link and instructions public immediately after paper acceptance by updating this README.
-Before that, users who have obtained the source data via the official access procedures can reproduce all artifacts by running the provided scripts in the documented order to generate the encodings and intermediate outputs locally.
+- **Pre-computed LLM-encoded features**: approximately **16 GB**
+- **Trained model checkpoints**: approximately **2 GB**
