@@ -137,7 +137,7 @@ def find_topk(query_vec, sample_vecs, k=3):
 
 if __name__ == "__main__":
     INPUT_JSON_PATH = "/path/to/your/INPUT.json"
-    TXT_SAMPLES_PATH = "/path/to/your/emnlp_final.txt"
+    TXT_SAMPLES_PATH = "/path/to/your/TXT_SAMPLES.txt"
     MODEL_DIR = "/path/to/your/bge-base-en-v1.5"
     OUTPUT_JSON_PATH = "/path/to/your/OUTPUT.json"
 
