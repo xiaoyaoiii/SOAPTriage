@@ -17,7 +17,7 @@ columns_to_keep = [
     "AMBTRANSFER", # Transferred from another hospital/ED (1=Yes, 2=No)
     "SEEN72",      # Seen in this ED within past 72 hours (1=Yes, 2=No)
 
-    # Subjective: chief complaint
+    # Subjective: reason for visit / chief complaint
     "RFV1", "RFV2", "RFV3", "RFV4", "RFV5",
     "RFV13D", "RFV23D", "RFV33D", "RFV43D", "RFV53D",
     "EPISODE",     # Visit type (1=Initial, 2=Follow-up)
@@ -30,7 +30,7 @@ columns_to_keep = [
     "INTENT15",    # Intent (1=Intentional, 2=Unintentional, 3=Undetermined)
     "INJURY_ENC",  # Injury encounter type (1=Initial, 2=Subsequent, 3=Sequela)
 
-    # Objective: medical history (comorbidities)
+    # Objective: comorbidities / medical history
     "ASTHMA", "COPD", "CHF", "CAD", "HTN",
     "DIABTYP1", "DIABTYP2", "OBESITY", "OSA", "OSTPRSIS",
     "SUBSTAB", "ETOHAB", "CANCER", "CEBVD", "CKD",
@@ -46,18 +46,27 @@ columns_to_keep = [
     "PAINSCALE",   # Pain scale (0-10)
 
     # Target label
-    "IMMEDR"       # Triage level (1=Immediate, 2=Emergent, 3=Urgent, 4=Semi-urgent, 5=Non-urgent)
+    "IMMEDR",      # Triage level (1-5)
 ]
 
-# Input and output paths (placeholders for GitHub)
-INPUT_EXCEL_PATH = "/path/to/your/INPUT.xlsx"
-OUTPUT_EXCEL_PATH = "/path/to/your/OUTPUT.xlsx"
+# Replace with your own paths
+YOUR_INPUT_EXCEL_PATH = "your_input_excel_file_path.xlsx"
+YOUR_OUTPUT_EXCEL_PATH = "your_output_excel_file_path.xlsx"
 
 # Load the original Excel file
-df = pd.read_excel(INPUT_EXCEL_PATH)
+df = pd.read_excel(YOUR_INPUT_EXCEL_PATH)
 
-# Keep only the specified columns
-df_filtered = df[columns_to_keep]
+# Optional: validate columns exist
+missing_cols = [c for c in columns_to_keep if c not in df.columns]
+if missing_cols:
+    raise ValueError(
+        f"Missing columns in your_input_excel_file: {missing_cols}\n"
+        f"Existing columns: {list(df.columns)}"
+    )
+
+# Keep only the specified columns (in the specified order)
+df_filtered = df[columns_to_keep].copy()
 
 # Save the filtered dataset
-df_filtered.to_excel(OUTPUT_EXCEL_PATH, index=False)
+df_filtered.to_excel(YOUR_OUTPUT_EXCEL_PATH, index=False)
+print(f"Saved filtered dataset to: {YOUR_OUTPUT_EXCEL_PATH}")
