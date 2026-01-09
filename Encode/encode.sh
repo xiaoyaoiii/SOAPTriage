@@ -2,7 +2,7 @@
 set -euo pipefail
 
 script_path="your_script_dir/soap_encoding.py"
-input_json="your_data_dir/emnlp.json"
+input_json="your_data_dir/MIMIC-IV.json"
 model_path="your_model_dir/triage_model_8b"
 
 max_length=2048
