@@ -1,6 +1,8 @@
 # Supplementary Benchmark Results
 ## 📊 Ablation study and backbone LLMs
-<img src="Pictures/figure4.png" alt="figure4" border="0">
+<div align="center">
+<img src="Pictures/figure4.png" alt="figure4" width="60%" border="0">
+</div>
 Ablation study and performance comparison across backbone LLMs of different scales. Lower values indicate better performance.
 
 ## ✨ Influence of Different Architectura Settings
