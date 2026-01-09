@@ -80,5 +80,4 @@ You can implement our methods according to the following steps:
    ```shell
    bash predict.sh
 
-
 ## 🌟 Contributions and suggestions are welcome!
