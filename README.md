@@ -18,7 +18,7 @@ This repository provides the official implementation of the paper **"SOAPTriage:
 </div>
 
 ### Constructed Triage Datasets
-We release two triage-note datasets built from de-identified structured ED visit records via our **Clinical Note Augmentation (CNA)** pipeline:
+We construct two triage-note datasets from de-identified structured ED visit records via our **Clinical Note Augmentation (CNA)** pipeline:
 
 - **MIMIC-IV (Augmented)** — **15,393** augmented ED triage notes with **ESI labels (1–5)**, split into **train/val/test = 8:1:1**.
 - **NHAMCS (Augmented)** — **16,596** augmented ED triage notes labeled by **immediacy rating (IR 1–5)**, a triage scale comparable to ESI, also split into **train/val/test = 8:1:1**.
