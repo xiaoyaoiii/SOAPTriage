@@ -14,7 +14,7 @@ This repository provides the official implementation of the paper **"SOAPTriage:
 
 ## 📂 Dataset Overview
 <div align="center">
-  <img src="Doc/Pictures/table1.png" alt="table1" width="30%">
+  <img src="Doc/Pictures/table1.png" alt="table1" width="50%">
 </div>
 
 ### Constructed Triage Datasets
