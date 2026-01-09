@@ -1,4 +1,4 @@
-# Supplementary Benchmark Results
+# Supplementary Experiments and Human Evaluation
 ## 📊 Ablation study and backbone LLMs
 <div align="center">
 <img src="Pictures/figure4.png" alt="figure4" width="60%" border="0">
