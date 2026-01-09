@@ -23,7 +23,8 @@ We construct two triage-note datasets from de-identified structured ED visit rec
 - **MIMIC-IV (Augmented)** — **15,393** augmented ED triage notes with **ESI labels (1–5)**, split into **train/val/test = 8:1:1**.
 - **NHAMCS (Augmented)** — **16,596** augmented ED triage notes labeled by **immediacy rating (IR 1–5)**, a triage scale comparable to ESI, also split into **train/val/test = 8:1:1**.
 
-**For more detailed dataset, please [Click here!](Data/README.md)**
+****For more detailed dataset descriptions, please [click here](Data/README.md).**
+**
 
 ## 🧠 SOAPTriage Framework
 <div align="center">
@@ -79,4 +80,5 @@ You can implement our methods according to the following steps:
    ```shell
    bash predict.sh
 
+```md
 ## 🌟 Contributions and suggestions are welcome!
