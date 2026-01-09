@@ -12,7 +12,7 @@ import os
 # ---------- 1. Path configuration ----------
 INPUT_EXCEL_PATH = "/path/to/your/INPUT.xlsx"
 RFV_VOCAB_PATH = "/path/to/your/RFV.txt"
-EXT_CAUSE_PATH = "/path/to/your/icd10cm-codes-April-2024.txt"
+EXT_CAUSE_PATH = "/path/to/your/icd10cm-codes.txt"
 OUTPUT_JSON_PATH = "/path/to/your/OUTPUT.json"
 
 # ---------- 2. Load vocabularies ----------
