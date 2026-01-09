@@ -63,7 +63,7 @@ You can implement our methods according to the following steps:
 
    Data Augmentation:
    ```shell
-   python callapi.py
+   python CallApi.py
    ```
    
    Encode:
