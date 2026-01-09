@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="Doc/Pictures/title.png" alt="title" width="70%">
+  <img src="Doc/Pictures/title.png" alt="title" width="90%">
 </div>
 
 <p float="left"><img src="https://img.shields.io/badge/python-v3.10+-red"> <img src="https://img.shields.io/badge/pytorch-v2.6+-blue">
