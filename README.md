@@ -32,8 +32,6 @@ We construct two triage-note datasets from de-identified structured ED visit rec
 
 Architecture of SOAPTriage. The CNA module converts structured ED records into natural-language triage notes to construct a high-quality dataset. The SGE module, guided by SOAP triage theory, comprehensively assesses patients' conditions and extracts mid-depth representations from four perspectives. The SAAI module adaptively aggregates these SOAP-aware representations to infer the final ESI level.
 
-**For more detailed experimental results, please [Click here!](Doc/Supplementary%20Experiments/README.md)**
-
 ## 📊 MIMIC-IV Results
 <div align="center">
   <img src="Doc/Pictures/mimic_table.png" alt="mimic_table" width="70%">
