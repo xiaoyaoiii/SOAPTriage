@@ -1,5 +1,5 @@
 export CUDA_VISIBLE_DEVICES=0
-python your_script_dir/bert/train.py \
+python your_script_dir/train.py \
   --train_files \
     your_train_dir/triage_embed_soap_s.jsonl \
     your_train_dir/triage_embed_soap_o.jsonl \
