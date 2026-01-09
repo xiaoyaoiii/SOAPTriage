@@ -13,4 +13,4 @@ python your_script_dir/train.py \
   --lr 3e-5 --weight_decay 5e-4 \
   --bert_layers 2 --bert_heads 8 --bert_ffn_dim 1024 \
   --epochs 200 --batch_size 128 \
-  --save_dir your_ckpt_dir/re/low
+  --save_dir your_ckpt_dir
