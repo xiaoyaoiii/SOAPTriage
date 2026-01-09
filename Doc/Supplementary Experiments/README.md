@@ -14,7 +14,7 @@ Performance comparison (%) of three variants under the Qwen3-8B setting across f
 # Human Expert Evaluation
 ## ⚖️ Evaluation of Clinical Quality and Plausibility
 <div align="center">
-<img src="Pictures/Evaluation_table1.png" alt="Evaluation_table1" width="60%" border="0">
+<img src="Pictures/Evaluation_table1.png" alt="Evaluation_table1" width="100%" border="0">
 </div>
 Human expert evaluation of constructed triage notes from MIMIC-IV and NHAMCS, compared with real-world ED clinical notes (Reference), across five quality dimensions. Scores are linearly rescaled from a 1-5 Likert scale to a 0-100 range.
 
